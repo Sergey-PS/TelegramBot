@@ -6,6 +6,8 @@ use app\components\TelegramBot;
 $telegramApi = new TelegramBot();
 $catOrDog = new CatOrDog();
 
+set_time_limit(0);
+
 while (true) {
     sleep(2);
     $updates = $telegramApi->getUpdates();
