@@ -6,7 +6,7 @@ use GuzzleHttp\Client;
 
 class TelegramBot
 {
-    protected $token = '2015394936:AAGW4xJSMgGxIRkplRCbDxXqXKdR2d2Qb8o';
+    protected $token = '***********************';
     protected $updateId;
     const I_DO_NOT_UNDERSTAND = 'Не понимаю Вас! Наберите: <b><u>кот</u></b> или <b><u>пес</u></b>.';
     const BEAUTIFUL = ['Красивый',
